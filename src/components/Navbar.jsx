@@ -44,7 +44,7 @@ const Navbar = () => {
               transition={{ duration: 0.5 }}
             >
               <img 
-                src="/src/assets/softlaunch.png" 
+                src="/public/softlaunch.png" 
                 alt="SoftLaunch Logo" 
                 className="h-8 w-auto mr-2"
               />

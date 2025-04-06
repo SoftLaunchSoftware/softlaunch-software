@@ -49,7 +49,7 @@ const LoadingScreen = () => {
             }}
           >
             <img 
-              src="/public/softlaunch.png" 
+              src="/src/assets/softlaunch.png" 
               alt="SoftLaunch Logo" 
               className="w-12 h-12 md:w-16 md:h-16 object-contain"
             />

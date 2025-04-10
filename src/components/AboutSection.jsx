@@ -55,7 +55,7 @@ const AboutSection = () => {
             </span>
           </h2>
           <p className="max-w-3xl mx-auto text-lg text-gray-600 dark:text-gray-300">
-            NexaTech is a forward-thinking software development company dedicated to creating innovative solutions 
+            SoftLaunch is a forward-thinking software development company dedicated to creating innovative solutions 
             that drive digital transformation and empower businesses to thrive in today's competitive landscape.
           </p>
         </motion.div>

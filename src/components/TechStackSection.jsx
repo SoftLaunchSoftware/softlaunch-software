@@ -3,14 +3,18 @@ import { motion } from 'framer-motion';
 
 const TechStackSection = () => {
   const technologies = [
-    { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    { name: "React-vite", logo: "https://cdn.worldvectorlogo.com/logos/vitejs.svg" },
     { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-    { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
-    { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+    { name: "Tailwind CSS", logo: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" },
+    { name: "Laravel", logo: "https://cdn.worldvectorlogo.com/logos/laravel-2.svg" },
     { name: "Node.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-    { name: "GraphQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" },
+    { name: "Kotlin", logo: "https://cdn.worldvectorlogo.com/logos/kotlin-1.svg" },
     { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-    { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
+    { name: "MySQL", logo: "https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg" },
+    // { name: ".NET", logo: "https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg" },
+    // { name: "SQL Server", logo: "https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg" },
+    // { name: ".NET", logo: "https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg" },
+    // { name: ".NET", logo: "https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg" },
   ];
 
   return (

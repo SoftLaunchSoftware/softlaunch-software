@@ -10,6 +10,7 @@ import ProjectsSection from './components/ProjectsSection.jsx';
 import TestimonialsSection from './components/TestimonialsSection.jsx';
 import ContactSection from './components/ContactSection.jsx';
 import Footer from './components/Footer.jsx';
+import TeamSection from './components/TeamSection.jsx';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
               <TechStackSection/>
               <ProjectsSection/>
               <TestimonialsSection/>
+              <TeamSection/>
               <ContactSection/>
             </main>
             <Footer/>

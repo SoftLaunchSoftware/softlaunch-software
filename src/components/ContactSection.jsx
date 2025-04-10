@@ -85,7 +85,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-300">hello@nexatech.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">softlaunchsoftware@gmail.com</p>
                 </div>
               </div>
               
@@ -97,7 +97,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium">Phone</h4>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                  <p className="text-gray-600 dark:text-gray-300">+94 (76) 3362873</p>
                 </div>
               </div>
               
@@ -110,7 +110,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">123 Innovation Way, Tech City, CA 94103</p>
+                  <p className="text-gray-600 dark:text-gray-300">Katunayake</p>
                 </div>
               </div>
             </div>

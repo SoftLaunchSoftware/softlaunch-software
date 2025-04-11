@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 focus:outline-none"
+              className="flex items-center justify-between flex-wrap px-4 sm:px-6 lg:px-8"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>

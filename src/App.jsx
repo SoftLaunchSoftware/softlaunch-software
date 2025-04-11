@@ -11,6 +11,7 @@ import TestimonialsSection from './components/TestimonialsSection.jsx';
 import ContactSection from './components/ContactSection.jsx';
 import Footer from './components/Footer.jsx';
 import TeamSection from './components/TeamSection.jsx';
+import WhatsAppButton from './components/WhatsAppButton.jsx';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -42,6 +43,7 @@ function App() {
               <ContactSection/>
             </main>
             <Footer/>
+            <WhatsAppButton phoneNumber="+94763362873" />
           </>
         )}
       </AnimatePresence>

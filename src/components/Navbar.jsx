@@ -23,6 +23,7 @@ const Navbar = () => {
     { name: 'Technologies', target: 'tech-stack' },
     { name: 'Projects', target: 'projects' },
     { name: 'Testimonials', target: 'testimonials' },
+    { name: 'Our Team', target: 'team' },
     { name: 'Contact', target: 'contact' },
   ];
 

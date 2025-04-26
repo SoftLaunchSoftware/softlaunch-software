@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 const AboutSection = () => {
   const services = [
     {
-      title: "Web Development",
-      description: "Modern, responsive websites and progressive web applications built with the latest technologies.",
-      icon: "💻"
+      title: "Software Development",
+      description: "Custom software solutions tailored to business needs, from concept to deployment.",
+      icon: "🖥️"
     },
     {
       title: "UI/UX Design",
@@ -14,15 +14,21 @@ const AboutSection = () => {
       icon: "🎨"
     },
     {
-      title: "Mobile Development",
-      description: "Native and cross-platform mobile applications for iOS and Android devices.",
-      icon: "📱"
+      title: "Web Development",
+      description: "Modern, responsive websites and progressive web applications built with the latest technologies.",
+      icon: "💻"
     },
     {
-      title: "DevOps & Cloud",
-      description: "Scalable infrastructure, CI/CD pipelines, and cloud deployment strategies.",
-      icon: "☁️"
+      title: "Mobile App Development",
+      description: "Native and cross-platform mobile applications for iOS and Android devices.",
+      icon: "📱"
     }
+    // {
+    //   title: "DevOps & Cloud",
+    //   description: "Scalable infrastructure, CI/CD pipelines, and cloud deployment strategies.",
+    //   icon: "☁️"
+    // }
+    
   ];
   
   const containerVariants = {

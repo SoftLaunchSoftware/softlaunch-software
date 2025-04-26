@@ -68,7 +68,7 @@ const IntroSection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="relative"
           >
-            <div className="w-full h-72 md:h-96 rounded-xl overflow-hidden relative">
+            <div className="w-full h-72 md:h-92 rounded-xl overflow-hidden relative">
               <img
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80"
                 alt="Digital transformation"
@@ -76,32 +76,6 @@ const IntroSection = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/30 to-purple-600/30" />
             </div>
-
-            {/* Floating Circles */}
-            <motion.div
-            className="hidden sm:block absolute -bottom-12 -right-12 w-40 h-40 bg-blue-500/10 dark:bg-blue-500/20 rounded-full"
-            animate={{
-              scale: [1, 1.2, 1],
-              rotate: [0, 90, 0],
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: 'easeInOut',
-              }}
-              />
-            <motion.div
-              className="absolute sm:block -top-12 -left-12 w-24 h-24 bg-purple-500/10 dark:bg-purple-500/20 rounded-full"
-              animate={{
-                scale: [1, 1.3, 1],
-                rotate: [0, -90, 0],
-              }}
-              transition={{
-                duration: 7,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              }}
-            />
           </motion.div>
         </div>
       </div>

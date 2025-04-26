@@ -27,7 +27,7 @@ const Navbar = () => {
     { name: 'Contact', target: 'contact' },
   ];
 
-  const navbarClasses = `fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+  const navbarClasses = `fixed items-center justify-center mx-0 top-0 left-0 right-0 z-40 transition-all duration-300 ${
     scrolled 
       ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg' 
       : 'bg-transparent'

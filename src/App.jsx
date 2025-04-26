@@ -33,7 +33,7 @@ function App() {
         ) : (
           <>
             <Navbar />
-            <main>
+            <main className="overflow-x-hidden w-full">
               <IntroSection/>
               <AboutSection/>
               <TechStackSection/>
